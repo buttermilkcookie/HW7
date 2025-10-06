@@ -18,14 +18,30 @@ img {
     background-color: darkslateblue;
 }
 
-.fact {
+.fact{
     color: white;
 }
 
-.fun {
+.fun{
     font-style: italic;
 }
 
 #three {
     text-decoration: underline;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    color: orange;
 }
